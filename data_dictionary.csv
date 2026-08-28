@@ -1,0 +1,54 @@
+file,field,description,data_type,example
+ofs_employee_directory.csv,user_id,Synthetic user identifier,string,mhaingura
+ofs_employee_directory.csv,permitted_resource_groups,Semicolon-separated authorised resource groups,string,CRM_BASIC;CUSTOMER_BASIC
+ofs_asset_inventory.csv,criticality,Business impact rating,category,Critical
+ofs_access_policy_matrix.csv,normal_access_condition,Expected business rule for access,string,Bulk export requires approval
+ofs_email_gateway_logs.csv,event_id,Unique email event ID,string,E00431
+ofs_email_gateway_logs.csv,timestamp,Namibia local time (UTC+2),datetime,2026-09-11 16:54:12
+ofs_email_gateway_logs.csv,recipient,Recipient user ID,string,mhaingura
+ofs_email_gateway_logs.csv,sender,Message sender,string,benefits@...
+ofs_email_gateway_logs.csv,url_reputation,Gateway reputation at delivery,category,unknown
+ofs_email_gateway_logs.csv,verdict,Gateway disposition,category,ALLOW
+ofs_vpn_authentication_logs.csv,event_id,Unique VPN event ID,string,V00281
+ofs_vpn_authentication_logs.csv,source_ip,Remote public IP,string,102.134.88.19
+ofs_vpn_authentication_logs.csv,country,Source-country code,category,ZA
+ofs_vpn_authentication_logs.csv,device_id,Endpoint identifier presented to VPN,string,WIN-CLIENT-8472
+ofs_vpn_authentication_logs.csv,result,Authentication result,category,SUCCESS
+ofs_vpn_authentication_logs.csv,mfa_result,MFA outcome,category,APPROVED
+ofs_endpoint_process_logs.csv,event_id,Unique process event ID,string,P00561
+ofs_endpoint_process_logs.csv,parent_process,Parent process,string,outlook.exe
+ofs_endpoint_process_logs.csv,process_name,Executed process,string,powershell.exe
+ofs_endpoint_process_logs.csv,command_line,Observed command line,string,powershell.exe -EncodedCommand ...
+ofs_endpoint_process_logs.csv,signature_status,Code-signing status,category,unsigned
+ofs_endpoint_process_logs.csv,risk_level,EDR risk assessment,category,Critical
+ofs_file_access_logs.csv,event_id,Unique file event ID,string,X01022
+ofs_file_access_logs.csv,target_asset,Server hosting resource,string,FS-KYC-01
+ofs_file_access_logs.csv,resource_group,Policy group for resource,category,CUSTOMER_EXPORT
+ofs_file_access_logs.csv,action,Access action,category,DOWNLOAD
+ofs_file_access_logs.csv,status,Access outcome,category,SUCCESS
+ofs_file_access_logs.csv,bytes_transferred,Bytes read or transferred,integer,8421888
+ofs_file_access_logs.csv,sensitivity,Data classification,category,Restricted
+ofs_proxy_dlp_logs.csv,event_id,Unique proxy/DLP event ID,string,D00472
+ofs_proxy_dlp_logs.csv,destination_domain,External domain,string,cdn-storage-sync.net
+ofs_proxy_dlp_logs.csv,bytes_out,Bytes sent externally,integer,284332118
+ofs_proxy_dlp_logs.csv,dlp_rule,Matched DLP policy,category,CUSTOMER-PII-BULK
+ofs_proxy_dlp_logs.csv,action,Proxy/DLP disposition,category,ALLOW
+ofs_proxy_dlp_logs.csv,file_name,Observed uploaded file,string,kyc_q3.zip
+ofs_threat_intelligence.csv,intel_id,Threat intelligence record ID,string,TI1001
+ofs_threat_intelligence.csv,indicator,"IP, domain or SHA-256 indicator",string,196.250.34.77
+ofs_threat_intelligence.csv,confidence,Source confidence,category,High
+ofs_threat_intelligence.csv,tactic,Mapped threat tactic,category,Command and Control
+ofs_threat_intelligence.csv,recommended_action,Suggested operational action,string,Block IP; isolate endpoint
+ofs_access_session_training.csv,session_id,Unique historical access-session ID,string,S00001
+ofs_access_session_training.csv,new_device,1 if device has not been seen for user,integer,1
+ofs_access_session_training.csv,off_hours,1 if outside user normal hours,integer,1
+ofs_access_session_training.csv,failed_logins_30m,Failed attempts in previous 30 minutes,integer,4
+ofs_access_session_training.csv,sensitive_resources,Count of restricted/confidential resource groups accessed,integer,7
+ofs_access_session_training.csv,peer_deviation_score,Deviation from peer group behaviour,float,9.4
+ofs_access_session_training.csv,process_risk_score,0-100 process-behaviour risk score,float,79.0
+ofs_access_session_training.csv,destination_risk_score,0-100 external-destination risk score,float,63.0
+ofs_access_session_training.csv,label,1=suspicious historical session; 0=normal,integer,1
+ofs_access_session_investigation.csv,session_id,Unique unlabelled investigation-session ID,string,CASE-EXFIL-01
+ofs_access_session_investigation.csv,data_upload_mb,External upload volume in MB,float,284.3
+ofs_access_session_investigation.csv,impossible_travel,1 if concurrent or implausible geography detected,integer,1
+ofs_access_session_investigation.csv,privilege_mismatch,1 if accessed resources conflict with role,integer,1

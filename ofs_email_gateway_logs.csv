@@ -1,0 +1,434 @@
+event_id,timestamp,recipient,sender,subject,url,attachment,spf,dkim,dmarc,url_reputation,verdict,reason
+E00001,2026-09-07 07:03:24,pnakale,training@nust.na,Service notification,https://portal.example.com/1891,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00002,2026-09-07 07:15:58,amupanda,procurement@supplier.na,Invoice available,https://portal.example.com/2881,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00003,2026-09-07 07:23:06,nghifindaka,no-reply@microsoft.com,Monthly statement,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00004,2026-09-07 07:32:27,nambala,no-reply@microsoft.com,Purchase order update,https://portal.example.com/4686,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00005,2026-09-07 07:43:17,mbandeka,newsletter@industry.org,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00006,2026-09-07 08:02:26,tshivute,alerts@vendor.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00007,2026-09-07 08:09:53,haufiku,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/6821,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00008,2026-09-07 08:11:02,mbandeka,alerts@vendor.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00009,2026-09-07 08:25:50,mukwambi,billing@cloudservice.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00010,2026-09-07 09:40:58,kndjavera,statements@banking-partner.na,Service notification,https://portal.example.com/7300,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00011,2026-09-07 09:58:05,tshivute,no-reply@microsoft.com,Monthly statement,https://portal.example.com/1234,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00012,2026-09-07 09:58:57,katjiuongua,procurement@supplier.na,Service notification,https://portal.example.com/1408,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00013,2026-09-07 10:00:57,sankwasa,no-reply@microsoft.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00014,2026-09-07 10:03:35,tkamati,no-reply@microsoft.com,Industry newsletter,https://portal.example.com/4264,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00015,2026-09-07 11:14:10,murorua,no-reply@microsoft.com,Industry newsletter,https://portal.example.com/8081,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00016,2026-09-07 11:38:50,mukwambi,no-reply@microsoft.com,Purchase order update,https://portal.example.com/6530,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00017,2026-09-07 11:40:47,nduminga,procurement@supplier.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00018,2026-09-07 12:04:40,nghifindaka,billing@cloudservice.com,Monthly statement,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00019,2026-09-07 12:11:58,shilongo,alerts@vendor.com,Password expiry notice,https://portal.example.com/9095,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00020,2026-09-07 12:30:11,kndjavera,no-reply@microsoft.com,Invoice available,https://portal.example.com/2597,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00021,2026-09-07 12:38:56,ntinda,procurement@supplier.na,Industry newsletter,https://portal.example.com/9975,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00022,2026-09-07 13:10:25,katjiuongua,no-reply@microsoft.com,Invoice available,https://portal.example.com/3872,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00023,2026-09-07 13:35:26,nduminga,statements@banking-partner.na,Password expiry notice,https://portal.example.com/2731,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00024,2026-09-07 13:44:32,sihuhua,training@nust.na,Monthly statement,https://portal.example.com/7381,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00025,2026-09-07 13:45:29,nghifindaka,training@nust.na,Monthly statement,https://portal.example.com/3984,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00026,2026-09-07 13:50:34,pnakale,procurement@supplier.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00027,2026-09-07 13:59:37,amupanda,training@nust.na,Monthly statement,https://portal.example.com/7290,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00028,2026-09-07 14:01:53,murorua,newsletter@industry.org,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00029,2026-09-07 14:15:02,nnakale,training@nust.na,Password expiry notice,https://portal.example.com/8113,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00030,2026-09-07 14:15:26,nambala,alerts@vendor.com,Industry newsletter,https://portal.example.com/4985,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00031,2026-09-07 14:16:09,mukwambi,no-reply@microsoft.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00032,2026-09-07 14:25:20,tshivute,procurement@supplier.na,Monthly statement,https://portal.example.com/7891,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00033,2026-09-07 14:31:47,ntinda,procurement@supplier.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00034,2026-09-07 14:37:48,mhaingura,alerts@vendor.com,Password expiry notice,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00035,2026-09-07 14:41:17,tshivute,statements@banking-partner.na,Password expiry notice,https://portal.example.com/3550,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00036,2026-09-07 14:46:56,sankwasa,newsletter@industry.org,Password expiry notice,https://portal.example.com/8323,policy.docx,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00037,2026-09-07 14:52:29,pnakale,procurement@supplier.na,Monthly statement,https://portal.example.com/4396,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00038,2026-09-07 14:52:59,sankwasa,training@nust.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00039,2026-09-07 14:54:02,nghifindaka,newsletter@industry.org,Monthly statement,https://portal.example.com/1225,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00040,2026-09-07 14:56:14,haufiku,no-reply@microsoft.com,Invoice available,https://portal.example.com/2271,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00041,2026-09-07 15:02:00,tkamati,procurement@supplier.na,Password expiry notice,https://portal.example.com/9481,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00042,2026-09-07 15:09:09,mukwambi,procurement@supplier.na,Industry newsletter,https://portal.example.com/3622,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00043,2026-09-07 15:13:46,ndjaba,statements@banking-partner.na,Invoice available,https://portal.example.com/3354,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00044,2026-09-07 15:16:29,mukwambi,procurement@supplier.na,Password expiry notice,https://portal.example.com/5755,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00045,2026-09-07 15:35:33,murorua,billing@cloudservice.com,Invoice available,https://portal.example.com/7507,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00046,2026-09-07 15:41:18,sihuhua,procurement@supplier.na,Monthly statement,https://portal.example.com/2521,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00047,2026-09-07 15:43:52,amupanda,newsletter@industry.org,Invoice available,https://portal.example.com/6986,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00048,2026-09-07 15:53:27,murorua,no-reply@microsoft.com,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00049,2026-09-07 16:23:42,pnakale,procurement@supplier.na,Password expiry notice,https://portal.example.com/8053,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00050,2026-09-07 16:26:32,tjirera,procurement@supplier.na,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00051,2026-09-07 16:29:33,nambala,statements@banking-partner.na,Monthly statement,https://portal.example.com/5447,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00052,2026-09-07 16:56:49,hamukwaya,newsletter@industry.org,Monthly statement,https://portal.example.com/8023,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00053,2026-09-07 16:57:43,haufiku,no-reply@microsoft.com,Password expiry notice,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00054,2026-09-07 17:01:33,tkamati,training@nust.na,Monthly statement,https://portal.example.com/4124,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00055,2026-09-07 17:29:41,nghifindaka,no-reply@microsoft.com,Invoice available,https://portal.example.com/5811,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00056,2026-09-07 17:38:51,tkamati,billing@cloudservice.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00057,2026-09-07 18:09:48,haufiku,alerts@vendor.com,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00058,2026-09-07 18:11:19,katjiuongua,procurement@supplier.na,Monthly statement,https://portal.example.com/6063,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00059,2026-09-07 18:20:32,tkamati,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/1654,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00060,2026-09-07 18:27:45,mbandeka,newsletter@industry.org,Service notification,https://portal.example.com/6225,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00061,2026-09-07 18:29:23,shilongo,billing@cloudservice.com,Password expiry notice,https://portal.example.com/8914,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00062,2026-09-07 18:31:38,nduminga,newsletter@industry.org,Industry newsletter,https://portal.example.com/5001,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00063,2026-09-07 18:39:24,mukwambi,billing@cloudservice.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00064,2026-09-07 18:48:07,nnakale,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/3026,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00065,2026-09-07 18:48:49,mukwambi,alerts@vendor.com,Service notification,https://portal.example.com/2948,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00066,2026-09-08 07:10:09,kndjavera,billing@cloudservice.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00067,2026-09-08 07:12:00,nduminga,procurement@supplier.na,Purchase order update,https://portal.example.com/7854,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00068,2026-09-08 07:16:34,nduminga,training@nust.na,Security awareness reminder,https://portal.example.com/5885,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00069,2026-09-08 07:19:39,nambala,procurement@supplier.na,Service notification,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00070,2026-09-08 07:37:19,tkamati,training@nust.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00071,2026-09-08 07:38:32,amupanda,no-reply@microsoft.com,Monthly statement,https://portal.example.com/4052,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00072,2026-09-08 07:41:31,sankwasa,training@nust.na,Monthly statement,https://portal.example.com/6431,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00073,2026-09-08 08:01:28,ntinda,billing@cloudservice.com,Security awareness reminder,https://portal.example.com/6264,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00074,2026-09-08 08:04:36,mbandeka,procurement@supplier.na,Industry newsletter,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00075,2026-09-08 08:32:32,ntinda,alerts@vendor.com,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00076,2026-09-08 08:47:51,amupanda,no-reply@microsoft.com,Monthly statement,https://portal.example.com/4487,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00077,2026-09-08 08:56:45,mhaingura,procurement@supplier.na,Purchase order update,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00078,2026-09-08 08:58:17,nnakale,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/1777,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00079,2026-09-08 09:48:44,ntinda,statements@banking-partner.na,Password expiry notice,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00080,2026-09-08 10:02:50,nnakale,procurement@supplier.na,Invoice available,https://portal.example.com/8392,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00081,2026-09-08 10:06:58,mukwambi,training@nust.na,Security awareness reminder,https://portal.example.com/2947,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00082,2026-09-08 10:20:53,shapaka,procurement@supplier.na,Invoice available,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00083,2026-09-08 10:39:54,nambala,statements@banking-partner.na,Purchase order update,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00084,2026-09-08 10:46:12,sankwasa,newsletter@industry.org,Invoice available,https://portal.example.com/9317,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00085,2026-09-08 11:10:18,tjirera,training@nust.na,Security awareness reminder,https://portal.example.com/7483,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00086,2026-09-08 11:22:50,tkamati,no-reply@microsoft.com,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00087,2026-09-08 11:40:17,tkamati,newsletter@industry.org,Password expiry notice,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00088,2026-09-08 11:43:17,tshivute,no-reply@microsoft.com,Monthly statement,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00089,2026-09-08 12:31:30,amupanda,billing@cloudservice.com,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00090,2026-09-08 12:35:24,tkamati,alerts@vendor.com,Purchase order update,https://portal.example.com/2375,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00091,2026-09-08 12:41:00,mukwambi,alerts@vendor.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00092,2026-09-08 12:59:08,tjirera,training@nust.na,Purchase order update,https://portal.example.com/6206,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00093,2026-09-08 13:22:42,mukwambi,statements@banking-partner.na,Service notification,https://portal.example.com/2938,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00094,2026-09-08 13:29:04,shilongo,billing@cloudservice.com,Invoice available,https://portal.example.com/3700,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00095,2026-09-08 13:42:46,sankwasa,billing@cloudservice.com,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00096,2026-09-08 13:54:04,nghifindaka,alerts@vendor.com,Industry newsletter,https://portal.example.com/3026,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00097,2026-09-08 13:56:55,tjirera,procurement@supplier.na,Purchase order update,https://portal.example.com/7660,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00098,2026-09-08 14:19:51,nduminga,newsletter@industry.org,Invoice available,https://portal.example.com/3237,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00099,2026-09-08 14:44:07,shilongo,training@nust.na,Monthly statement,https://portal.example.com/1818,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00100,2026-09-08 14:55:45,tshivute,statements@banking-partner.na,Purchase order update,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00101,2026-09-08 15:03:03,haufiku,newsletter@industry.org,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00102,2026-09-08 15:03:36,ntinda,newsletter@industry.org,Monthly statement,https://portal.example.com/7954,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00103,2026-09-08 15:12:37,murorua,no-reply@microsoft.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00104,2026-09-08 15:16:23,nghifindaka,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/7483,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00105,2026-09-08 15:39:59,sankwasa,billing@cloudservice.com,Monthly statement,https://portal.example.com/3959,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00106,2026-09-08 15:42:17,jkavari,no-reply@microsoft.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00107,2026-09-08 15:52:27,mukwambi,training@nust.na,Password expiry notice,https://portal.example.com/1322,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00108,2026-09-08 16:44:28,ndjaba,training@nust.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00109,2026-09-08 16:49:38,nduminga,no-reply@microsoft.com,Invoice available,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00110,2026-09-08 17:23:57,sihuhua,statements@banking-partner.na,Security awareness reminder,https://portal.example.com/6142,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00111,2026-09-08 17:41:32,ntinda,training@nust.na,Service notification,https://portal.example.com/8550,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00112,2026-09-08 17:42:40,tshivute,alerts@vendor.com,Password expiry notice,https://portal.example.com/5822,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00113,2026-09-08 17:48:15,nghifindaka,statements@banking-partner.na,Password expiry notice,https://portal.example.com/6036,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00114,2026-09-08 17:51:32,amupanda,procurement@supplier.na,Security awareness reminder,https://portal.example.com/8310,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00115,2026-09-08 18:00:12,ndjaba,no-reply@microsoft.com,Invoice available,https://portal.example.com/1398,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00116,2026-09-08 18:02:27,nnakale,no-reply@microsoft.com,Industry newsletter,https://portal.example.com/3681,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00117,2026-09-08 18:04:34,amupanda,billing@cloudservice.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00118,2026-09-09 07:13:23,pnakale,procurement@supplier.na,Password expiry notice,https://portal.example.com/2456,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00119,2026-09-09 07:14:40,sihuhua,training@nust.na,Purchase order update,https://portal.example.com/2934,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00120,2026-09-09 07:18:25,murorua,training@nust.na,Monthly statement,https://portal.example.com/3693,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00121,2026-09-09 07:32:07,amupanda,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/6500,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00122,2026-09-09 07:32:16,kndjavera,newsletter@industry.org,Password expiry notice,https://portal.example.com/7440,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00123,2026-09-09 07:39:34,haufiku,no-reply@microsoft.com,Service notification,https://portal.example.com/4039,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00124,2026-09-09 08:24:36,nghifindaka,no-reply@microsoft.com,Invoice available,https://portal.example.com/4774,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00125,2026-09-09 08:26:16,mhaingura,billing@cloudservice.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00126,2026-09-09 08:27:55,amupanda,billing@cloudservice.com,Security awareness reminder,https://portal.example.com/5811,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00127,2026-09-09 09:04:10,sankwasa,procurement@supplier.na,Service notification,https://portal.example.com/6884,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00128,2026-09-09 09:16:21,ntinda,newsletter@industry.org,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00129,2026-09-09 09:17:41,mhaingura,procurement@supplier.na,Security awareness reminder,https://portal.example.com/6210,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00130,2026-09-09 09:29:25,nduminga,billing@cloudservice.com,Security awareness reminder,https://portal.example.com/1920,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00131,2026-09-09 09:31:58,tshivute,billing@cloudservice.com,Invoice available,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00132,2026-09-09 09:35:10,tkamati,statements@banking-partner.na,Invoice available,https://portal.example.com/5072,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00133,2026-09-09 09:42:12,tshivute,alerts@vendor.com,Industry newsletter,https://portal.example.com/8739,invoice.pdf,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00134,2026-09-09 10:16:58,haufiku,alerts@vendor.com,Purchase order update,https://portal.example.com/7620,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00135,2026-09-09 10:20:59,tjirera,training@nust.na,Security awareness reminder,https://portal.example.com/4195,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00136,2026-09-09 10:31:14,nghifindaka,billing@cloudservice.com,Monthly statement,https://portal.example.com/7754,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00137,2026-09-09 10:35:37,jkavari,billing@cloudservice.com,Service notification,https://portal.example.com/9215,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00138,2026-09-09 10:46:56,amupanda,newsletter@industry.org,Service notification,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00139,2026-09-09 10:47:19,haufiku,statements@banking-partner.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00140,2026-09-09 10:58:20,tjirera,billing@cloudservice.com,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00141,2026-09-09 11:23:55,hamukwaya,alerts@vendor.com,Purchase order update,https://portal.example.com/6163,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00142,2026-09-09 11:31:16,shilongo,alerts@vendor.com,Industry newsletter,https://portal.example.com/3790,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00143,2026-09-09 11:34:36,haufiku,statements@banking-partner.na,Invoice available,https://portal.example.com/4300,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00144,2026-09-09 11:46:09,katjiuongua,billing@cloudservice.com,Security awareness reminder,https://portal.example.com/8726,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00145,2026-09-09 11:48:27,sihuhua,statements@banking-partner.na,Invoice available,https://portal.example.com/4218,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00146,2026-09-09 11:55:29,sankwasa,newsletter@industry.org,Monthly statement,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00147,2026-09-09 12:02:49,katjiuongua,statements@banking-partner.na,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00148,2026-09-09 12:40:34,tshivute,procurement@supplier.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00149,2026-09-09 12:41:54,ntinda,alerts@vendor.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00150,2026-09-09 12:42:16,mhaingura,procurement@supplier.na,Invoice available,https://portal.example.com/1184,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00151,2026-09-09 13:20:14,sankwasa,procurement@supplier.na,Security awareness reminder,https://portal.example.com/9523,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00152,2026-09-09 13:20:30,ndjaba,billing@cloudservice.com,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00153,2026-09-09 13:25:31,hamukwaya,statements@banking-partner.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00154,2026-09-09 13:29:18,kndjavera,alerts@vendor.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00155,2026-09-09 13:53:38,nduminga,statements@banking-partner.na,Invoice available,https://portal.example.com/4919,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00156,2026-09-09 14:11:16,sihuhua,billing@cloudservice.com,Security awareness reminder,https://portal.example.com/2149,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00157,2026-09-09 14:21:14,sihuhua,procurement@supplier.na,Invoice available,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00158,2026-09-09 14:46:24,amupanda,procurement@supplier.na,Service notification,https://portal.example.com/2751,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00159,2026-09-09 14:46:56,nghifindaka,statements@banking-partner.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00160,2026-09-09 14:53:52,nduminga,billing@cloudservice.com,Security awareness reminder,https://portal.example.com/4959,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00161,2026-09-09 14:57:10,sihuhua,procurement@supplier.na,Invoice available,https://portal.example.com/8922,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00162,2026-09-09 15:17:28,mbandeka,training@nust.na,Monthly statement,https://portal.example.com/3770,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00163,2026-09-09 16:06:03,nambala,billing@cloudservice.com,Monthly statement,https://portal.example.com/4555,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00164,2026-09-09 16:17:40,shapaka,training@nust.na,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00165,2026-09-09 16:38:52,tkamati,newsletter@industry.org,Industry newsletter,https://portal.example.com/8776,statement.pdf,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00166,2026-09-09 16:47:34,nghifindaka,procurement@supplier.na,Password expiry notice,https://portal.example.com/1855,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00167,2026-09-09 16:48:16,haufiku,no-reply@microsoft.com,Purchase order update,https://portal.example.com/8044,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00168,2026-09-09 16:51:33,mukwambi,procurement@supplier.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00169,2026-09-09 17:03:37,shilongo,no-reply@microsoft.com,Monthly statement,https://portal.example.com/9001,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00170,2026-09-09 17:08:06,nambala,training@nust.na,Industry newsletter,https://portal.example.com/3418,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00171,2026-09-09 17:14:47,tshivute,statements@banking-partner.na,Industry newsletter,https://portal.example.com/1997,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00172,2026-09-09 17:29:09,tjirera,alerts@vendor.com,Purchase order update,https://portal.example.com/8864,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00173,2026-09-09 17:36:59,pnakale,billing@cloudservice.com,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00174,2026-09-09 17:42:04,murorua,alerts@vendor.com,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00175,2026-09-09 17:47:44,mbandeka,statements@banking-partner.na,Monthly statement,https://portal.example.com/9706,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00176,2026-09-09 17:57:59,haufiku,procurement@supplier.na,Purchase order update,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00177,2026-09-09 18:00:17,nambala,statements@banking-partner.na,Purchase order update,https://portal.example.com/1126,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00178,2026-09-09 18:34:57,mhaingura,alerts@vendor.com,Invoice available,https://portal.example.com/7548,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00179,2026-09-09 18:53:50,nnakale,alerts@vendor.com,Industry newsletter,https://portal.example.com/1458,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00180,2026-09-10 07:11:14,pnakale,newsletter@industry.org,Industry newsletter,https://portal.example.com/8827,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00181,2026-09-10 07:25:41,haufiku,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/8858,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00182,2026-09-10 07:28:05,mukwambi,billing@cloudservice.com,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00183,2026-09-10 07:28:20,shilongo,training@nust.na,Monthly statement,https://portal.example.com/3958,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00184,2026-09-10 07:43:34,nduminga,statements@banking-partner.na,Invoice available,https://portal.example.com/6837,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00185,2026-09-10 07:46:12,jkavari,statements@banking-partner.na,Industry newsletter,https://portal.example.com/8300,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00186,2026-09-10 07:51:39,nambala,training@nust.na,Monthly statement,https://portal.example.com/9938,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00187,2026-09-10 08:17:56,haufiku,training@nust.na,Industry newsletter,,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00188,2026-09-10 08:32:33,nduminga,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/7549,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00189,2026-09-10 09:10:30,jkavari,billing@cloudservice.com,Password expiry notice,https://portal.example.com/3993,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00190,2026-09-10 09:25:27,sihuhua,procurement@supplier.na,Invoice available,https://portal.example.com/9638,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00191,2026-09-10 09:32:13,ntinda,training@nust.na,Industry newsletter,https://portal.example.com/6935,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00192,2026-09-10 09:35:41,nghifindaka,statements@banking-partner.na,Invoice available,https://portal.example.com/5488,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00193,2026-09-10 09:44:53,ndjaba,newsletter@industry.org,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00194,2026-09-10 09:50:57,sankwasa,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/9222,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00195,2026-09-10 09:51:29,ntinda,billing@cloudservice.com,Service notification,https://portal.example.com/3053,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00196,2026-09-10 10:02:35,sankwasa,no-reply@microsoft.com,Purchase order update,https://portal.example.com/3186,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00197,2026-09-10 10:14:34,nnakale,no-reply@microsoft.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00198,2026-09-10 10:15:23,tkamati,accounts@unknown-invoice.com,Outstanding invoice,https://unknown-invoice.com/view,invoice.iso,fail,none,fail,malicious,QUARANTINE,DMARC failure and risky attachment
+E00199,2026-09-10 10:37:05,tjirera,statements@banking-partner.na,Service notification,https://portal.example.com/1381,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00200,2026-09-10 10:42:20,amupanda,billing@cloudservice.com,Invoice available,https://portal.example.com/6701,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00201,2026-09-10 10:53:00,amupanda,training@nust.na,Monthly statement,https://portal.example.com/5532,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00202,2026-09-10 11:11:07,murorua,no-reply@microsoft.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00203,2026-09-10 11:14:23,nnakale,statements@banking-partner.na,Security awareness reminder,https://portal.example.com/8198,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00204,2026-09-10 11:33:14,mbandeka,statements@banking-partner.na,Purchase order update,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00205,2026-09-10 12:03:51,katjiuongua,procurement@supplier.na,Invoice available,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00206,2026-09-10 12:19:15,nghifindaka,no-reply@microsoft.com,Purchase order update,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00207,2026-09-10 12:27:41,nambala,billing@cloudservice.com,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00208,2026-09-10 12:30:26,hamukwaya,newsletter@industry.org,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00209,2026-09-10 12:43:37,tkamati,no-reply@microsoft.com,Purchase order update,https://portal.example.com/1527,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00210,2026-09-10 12:50:36,tshivute,procurement@supplier.na,Password expiry notice,https://portal.example.com/9366,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00211,2026-09-10 12:51:45,katjiuongua,billing@cloudservice.com,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00212,2026-09-10 12:53:43,mhaingura,training@nust.na,Industry newsletter,https://portal.example.com/9637,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00213,2026-09-10 13:32:30,pnakale,no-reply@microsoft.com,Industry newsletter,https://portal.example.com/5586,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00214,2026-09-10 13:38:07,pnakale,billing@cloudservice.com,Purchase order update,https://portal.example.com/4923,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00215,2026-09-10 13:55:20,sankwasa,no-reply@microsoft.com,Service notification,https://portal.example.com/8256,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00216,2026-09-10 13:58:02,nambala,newsletter@industry.org,Industry newsletter,https://portal.example.com/4444,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00217,2026-09-10 14:00:47,hamukwaya,no-reply@microsoft.com,Monthly statement,,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00218,2026-09-10 14:05:17,shilongo,training@nust.na,Service notification,https://portal.example.com/5720,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00219,2026-09-10 14:07:04,sihuhua,newsletter@industry.org,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00220,2026-09-10 14:07:25,ntinda,procurement@supplier.na,Password expiry notice,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00221,2026-09-10 14:20:18,tjirera,newsletter@industry.org,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00222,2026-09-10 14:29:14,jkavari,newsletter@industry.org,Security awareness reminder,https://portal.example.com/1547,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00223,2026-09-10 14:30:50,shapaka,procurement@supplier.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00224,2026-09-10 14:47:01,ntinda,newsletter@industry.org,Security awareness reminder,https://portal.example.com/9556,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00225,2026-09-10 15:02:28,tjirera,newsletter@industry.org,Service notification,https://portal.example.com/7601,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00226,2026-09-10 15:23:25,tshivute,newsletter@industry.org,Monthly statement,https://portal.example.com/8320,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00227,2026-09-10 15:36:35,haufiku,alerts@vendor.com,Monthly statement,https://portal.example.com/9396,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00228,2026-09-10 15:39:27,hamukwaya,alerts@vendor.com,Industry newsletter,https://portal.example.com/4684,invoice.pdf,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00229,2026-09-10 15:42:46,pnakale,alerts@vendor.com,Password expiry notice,https://portal.example.com/3332,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00230,2026-09-10 15:51:30,ndjaba,alerts@vendor.com,Security awareness reminder,https://portal.example.com/3972,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00231,2026-09-10 15:55:50,hamukwaya,procurement@supplier.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00232,2026-09-10 15:56:13,nambala,billing@cloudservice.com,Monthly statement,https://portal.example.com/3980,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00233,2026-09-10 16:05:48,tjirera,no-reply@microsoft.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00234,2026-09-10 16:08:32,hamukwaya,alerts@vendor.com,Purchase order update,https://portal.example.com/9798,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00235,2026-09-10 16:22:46,shilongo,billing@cloudservice.com,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00236,2026-09-10 16:58:52,haufiku,procurement@supplier.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00237,2026-09-10 17:25:15,pnakale,statements@banking-partner.na,Industry newsletter,https://portal.example.com/2316,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00238,2026-09-10 17:29:57,sihuhua,newsletter@industry.org,Invoice available,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00239,2026-09-10 17:33:16,tkamati,alerts@vendor.com,Monthly statement,https://portal.example.com/2893,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00240,2026-09-10 17:33:32,shilongo,statements@banking-partner.na,Industry newsletter,https://portal.example.com/6410,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00241,2026-09-10 17:41:09,nduminga,billing@cloudservice.com,Invoice available,https://portal.example.com/3865,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00242,2026-09-10 17:43:24,shapaka,training@nust.na,Password expiry notice,https://portal.example.com/6590,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00243,2026-09-10 17:53:22,tshivute,no-reply@microsoft.com,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00244,2026-09-10 18:01:48,murorua,newsletter@industry.org,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00245,2026-09-10 18:03:57,tshivute,procurement@supplier.na,Invoice available,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00246,2026-09-10 18:04:29,haufiku,newsletter@industry.org,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00247,2026-09-10 18:11:51,jkavari,training@nust.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00248,2026-09-10 18:19:23,tshivute,billing@cloudservice.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00249,2026-09-10 18:22:47,nnakale,statements@banking-partner.na,Monthly statement,https://portal.example.com/9762,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00250,2026-09-10 18:32:47,murorua,procurement@supplier.na,Password expiry notice,https://portal.example.com/9629,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00251,2026-09-10 18:50:22,nambala,newsletter@industry.org,Security awareness reminder,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00252,2026-09-11 07:04:23,nghifindaka,billing@cloudservice.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00253,2026-09-11 07:10:25,nduminga,training@nust.na,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00254,2026-09-11 07:45:30,nambala,training@nust.na,Invoice available,https://portal.example.com/4806,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00255,2026-09-11 07:45:41,nghifindaka,newsletter@industry.org,Invoice available,https://portal.example.com/3609,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00256,2026-09-11 07:52:26,mbandeka,no-reply@microsoft.com,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00257,2026-09-11 07:55:08,pnakale,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/6190,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00258,2026-09-11 08:07:50,amupanda,training@nust.na,Service notification,https://portal.example.com/9704,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00259,2026-09-11 08:13:20,murorua,billing@cloudservice.com,Service notification,https://portal.example.com/3762,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00260,2026-09-11 08:16:59,tjirera,alerts@vendor.com,Invoice available,https://portal.example.com/9237,agenda.xlsx,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00261,2026-09-11 08:25:17,shilongo,statements@banking-partner.na,Service notification,https://portal.example.com/5595,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00262,2026-09-11 08:35:23,nduminga,statements@banking-partner.na,Purchase order update,https://portal.example.com/8860,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00263,2026-09-11 09:01:32,kndjavera,no-reply@microsoft.com,Monthly statement,https://portal.example.com/5048,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00264,2026-09-11 09:06:12,murorua,no-reply@microsoft.com,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00265,2026-09-11 09:12:58,kndjavera,procurement@supplier.na,Monthly statement,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00266,2026-09-11 09:37:01,nduminga,statements@banking-partner.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00267,2026-09-11 09:52:14,ntinda,procurement@supplier.na,Invoice available,https://portal.example.com/1387,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00268,2026-09-11 10:05:46,kndjavera,alerts@vendor.com,Monthly statement,https://portal.example.com/1720,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00269,2026-09-11 10:13:15,nambala,no-reply@microsoft.com,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00270,2026-09-11 10:26:42,mukwambi,training@nust.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00271,2026-09-11 10:28:04,katjiuongua,statements@banking-partner.na,Purchase order update,https://portal.example.com/8646,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00272,2026-09-11 10:47:47,sihuhua,training@nust.na,Service notification,,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00273,2026-09-11 11:08:49,nnakale,no-reply@microsoft.com,Service notification,https://portal.example.com/5727,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00274,2026-09-11 11:11:37,tkamati,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/4122,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00275,2026-09-11 11:33:42,sihuhua,alerts@vendor.com,Purchase order update,https://portal.example.com/4707,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00276,2026-09-11 11:40:34,shapaka,procurement@supplier.na,Purchase order update,https://portal.example.com/3343,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00277,2026-09-11 11:42:36,ndjaba,statements@banking-partner.na,Monthly statement,https://portal.example.com/9888,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00278,2026-09-11 12:10:49,mbandeka,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/9850,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00279,2026-09-11 12:28:48,pnakale,alerts@vendor.com,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00280,2026-09-11 12:40:25,haufiku,training@nust.na,Service notification,https://portal.example.com/1244,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00281,2026-09-11 12:53:36,shilongo,procurement@supplier.na,Security awareness reminder,https://portal.example.com/6422,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00282,2026-09-11 13:04:24,amupanda,statements@banking-partner.na,Purchase order update,https://portal.example.com/8114,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00283,2026-09-11 13:08:37,nduminga,no-reply@microsoft.com,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00284,2026-09-11 13:15:14,sihuhua,billing@cloudservice.com,Security awareness reminder,https://portal.example.com/3556,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00285,2026-09-11 13:22:53,nghifindaka,no-reply@microsoft.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00286,2026-09-11 13:40:27,katjiuongua,alerts@vendor.com,Invoice available,https://portal.example.com/7847,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00287,2026-09-11 13:42:34,mukwambi,alerts@vendor.com,Monthly statement,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00288,2026-09-11 13:50:46,ntinda,statements@banking-partner.na,Service notification,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00289,2026-09-11 14:06:52,haufiku,statements@banking-partner.na,Industry newsletter,https://portal.example.com/2946,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00290,2026-09-11 14:09:14,nambala,no-reply@microsoft.com,Security awareness reminder,https://portal.example.com/1419,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00291,2026-09-11 14:11:02,nduminga,training@nust.na,Security awareness reminder,https://portal.example.com/7726,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00292,2026-09-11 14:42:50,hamukwaya,statements@banking-partner.na,Security awareness reminder,https://portal.example.com/9566,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00293,2026-09-11 15:06:31,sankwasa,alerts@vendor.com,Monthly statement,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00294,2026-09-11 15:08:00,shapaka,billing@cloudservice.com,Service notification,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00295,2026-09-11 15:12:17,hamukwaya,procurement@supplier.na,Industry newsletter,https://portal.example.com/9604,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00296,2026-09-11 15:17:14,sihuhua,statements@banking-partner.na,Invoice available,https://portal.example.com/8482,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00297,2026-09-11 15:32:58,shapaka,training@nust.na,Service notification,https://portal.example.com/8019,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00298,2026-09-11 15:44:07,sihuhua,newsletter@industry.org,Security awareness reminder,https://portal.example.com/6903,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00299,2026-09-11 15:49:18,shapaka,newsletter@industry.org,Service notification,https://portal.example.com/1440,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00300,2026-09-11 16:04:35,nduminga,training@nust.na,Service notification,https://portal.example.com/6672,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00301,2026-09-11 16:10:50,ntinda,training@nust.na,Invoice available,https://portal.example.com/9194,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00302,2026-09-11 16:22:17,haufiku,billing@cloudservice.com,Invoice available,https://portal.example.com/9766,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00303,2026-09-11 16:34:37,tshivute,statements@banking-partner.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00304,2026-09-11 16:42:17,nambala,training@nust.na,Industry newsletter,https://portal.example.com/2675,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00305,2026-09-11 16:54:12,mhaingura,benefits@ofservices-portal.com,Action required: 2026 employee benefits review,https://ofservices-portal.com/benefits-review,,pass,pass,pass,unknown,ALLOW,Newly registered domain; no block rule
+E00306,2026-09-11 16:58:10,ntinda,alerts@vendor.com,Monthly statement,https://portal.example.com/9121,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00307,2026-09-11 17:01:44,mhaingura,benefits@ofservices-portal.com,Reminder: benefits review closes today,https://ofservices-portal.com/benefits-review,,pass,pass,pass,unknown,ALLOW,Newly registered domain; no block rule
+E00308,2026-09-11 17:03:02,jkavari,training@nust.na,Monthly statement,https://portal.example.com/4322,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00309,2026-09-11 17:09:49,nghifindaka,procurement@supplier.na,Service notification,https://portal.example.com/9864,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00310,2026-09-11 17:14:25,katjiuongua,procurement@supplier.na,Service notification,https://portal.example.com/5069,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00311,2026-09-11 17:20:25,tkamati,statements@banking-partner.na,Industry newsletter,https://portal.example.com/2511,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00312,2026-09-11 17:32:45,nghifindaka,newsletter@industry.org,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00313,2026-09-11 17:43:28,tjirera,training@nust.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00314,2026-09-11 17:58:48,hamukwaya,training@nust.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00315,2026-09-11 18:00:38,mbandeka,training@nust.na,Security awareness reminder,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00316,2026-09-11 18:14:36,jkavari,no-reply@microsoft.com,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00317,2026-09-11 18:15:05,mbandeka,newsletter@industry.org,Purchase order update,https://portal.example.com/6945,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00318,2026-09-11 18:20:54,tkamati,training@nust.na,Password expiry notice,https://portal.example.com/5330,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00319,2026-09-11 18:24:58,sihuhua,newsletter@industry.org,Service notification,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00320,2026-09-11 18:36:00,murorua,training@nust.na,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00321,2026-09-11 18:47:15,haufiku,procurement@supplier.na,Invoice available,https://portal.example.com/4425,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00322,2026-09-11 18:53:58,amupanda,newsletter@industry.org,Purchase order update,https://portal.example.com/5448,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00323,2026-09-12 07:47:31,nduminga,alerts@vendor.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00324,2026-09-12 07:57:37,murorua,alerts@vendor.com,Service notification,https://portal.example.com/7134,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00325,2026-09-12 08:07:13,haufiku,training@nust.na,Service notification,https://portal.example.com/2036,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00326,2026-09-12 08:32:40,pnakale,procurement@supplier.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00327,2026-09-12 08:37:56,shilongo,statements@banking-partner.na,Industry newsletter,,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00328,2026-09-12 08:49:49,sihuhua,no-reply@microsoft.com,Industry newsletter,https://portal.example.com/2548,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00329,2026-09-12 08:59:06,nnakale,alerts@vendor.com,Service notification,https://portal.example.com/8056,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00330,2026-09-12 09:00:18,pnakale,newsletter@industry.org,Invoice available,,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00331,2026-09-12 09:32:05,nambala,training@nust.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00332,2026-09-12 09:36:56,nghifindaka,training@nust.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00333,2026-09-12 10:00:37,tkamati,newsletter@industry.org,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00334,2026-09-12 10:03:02,shapaka,statements@banking-partner.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00335,2026-09-12 10:11:51,shilongo,training@nust.na,Invoice available,,invoice.pdf,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00336,2026-09-12 10:32:08,jkavari,procurement@supplier.na,Password expiry notice,https://portal.example.com/7617,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00337,2026-09-12 11:16:25,pnakale,procurement@supplier.na,Invoice available,https://portal.example.com/8084,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00338,2026-09-12 11:41:15,jkavari,statements@banking-partner.na,Monthly statement,https://portal.example.com/2663,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00339,2026-09-12 11:58:32,katjiuongua,billing@cloudservice.com,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00340,2026-09-12 12:14:26,pnakale,statements@banking-partner.na,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00341,2026-09-12 12:33:02,tjirera,no-reply@microsoft.com,Monthly statement,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00342,2026-09-12 12:43:47,ndjaba,procurement@supplier.na,Security awareness reminder,https://portal.example.com/5535,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00343,2026-09-12 13:01:06,nghifindaka,no-reply@microsoft.com,Invoice available,,,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00344,2026-09-12 13:36:42,mukwambi,billing@cloudservice.com,Invoice available,https://portal.example.com/1165,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00345,2026-09-12 14:10:53,tkamati,statements@banking-partner.na,Security awareness reminder,https://portal.example.com/4045,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00346,2026-09-12 14:12:37,mukwambi,training@nust.na,Purchase order update,https://portal.example.com/5900,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00347,2026-09-12 14:27:52,ndjaba,newsletter@industry.org,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00348,2026-09-12 14:47:42,mbandeka,alerts@vendor.com,Invoice available,https://portal.example.com/9779,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00349,2026-09-12 14:56:28,mhaingura,statements@banking-partner.na,Password expiry notice,,statement.pdf,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00350,2026-09-12 15:15:36,tkamati,training@nust.na,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00351,2026-09-12 15:34:30,katjiuongua,billing@cloudservice.com,Industry newsletter,https://portal.example.com/9396,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00352,2026-09-12 15:36:24,shapaka,alerts@vendor.com,Purchase order update,https://portal.example.com/6409,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00353,2026-09-12 15:40:35,katjiuongua,training@nust.na,Invoice available,https://portal.example.com/9646,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00354,2026-09-12 15:48:48,tkamati,newsletter@industry.org,Purchase order update,https://portal.example.com/5447,statement.pdf,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00355,2026-09-12 15:53:45,nambala,newsletter@industry.org,Security awareness reminder,https://portal.example.com/9632,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00356,2026-09-12 16:06:27,mukwambi,statements@banking-partner.na,Monthly statement,https://portal.example.com/4030,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00357,2026-09-12 16:19:21,hamukwaya,billing@cloudservice.com,Monthly statement,https://portal.example.com/6124,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00358,2026-09-12 16:26:14,murorua,procurement@supplier.na,Security awareness reminder,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00359,2026-09-12 16:32:39,mbandeka,billing@cloudservice.com,Purchase order update,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00360,2026-09-12 16:36:30,nambala,newsletter@industry.org,Monthly statement,https://portal.example.com/7988,statement.pdf,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00361,2026-09-12 16:41:11,nghifindaka,training@nust.na,Purchase order update,https://portal.example.com/2493,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00362,2026-09-12 16:44:22,tshivute,statements@banking-partner.na,Purchase order update,https://portal.example.com/2352,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00363,2026-09-12 17:10:50,nghifindaka,procurement@supplier.na,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00364,2026-09-12 17:19:13,sihuhua,no-reply@microsoft.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00365,2026-09-12 17:33:55,kndjavera,procurement@supplier.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00366,2026-09-12 17:35:23,ndjaba,billing@cloudservice.com,Monthly statement,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00367,2026-09-12 18:14:55,amupanda,alerts@vendor.com,Industry newsletter,https://portal.example.com/2067,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00368,2026-09-12 18:22:50,shapaka,procurement@supplier.na,Invoice available,https://portal.example.com/2252,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00369,2026-09-12 18:45:24,nduminga,no-reply@microsoft.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00370,2026-09-13 07:16:47,nghifindaka,alerts@vendor.com,Security awareness reminder,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00371,2026-09-13 07:19:12,nduminga,procurement@supplier.na,Industry newsletter,https://portal.example.com/6315,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00372,2026-09-13 07:51:10,mukwambi,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/6928,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00373,2026-09-13 07:57:38,ndjaba,procurement@supplier.na,Purchase order update,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00374,2026-09-13 08:03:51,mukwambi,statements@banking-partner.na,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00375,2026-09-13 08:26:36,nnakale,billing@cloudservice.com,Monthly statement,https://portal.example.com/1484,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00376,2026-09-13 08:29:25,pnakale,statements@banking-partner.na,Industry newsletter,https://portal.example.com/5380,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00377,2026-09-13 08:48:13,sankwasa,procurement@supplier.na,Invoice available,,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00378,2026-09-13 08:49:38,sankwasa,training@nust.na,Monthly statement,https://portal.example.com/8562,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00379,2026-09-13 08:54:48,kndjavera,statements@banking-partner.na,Service notification,https://portal.example.com/7881,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00380,2026-09-13 09:03:09,nnakale,billing@cloudservice.com,Invoice available,https://portal.example.com/3766,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00381,2026-09-13 09:18:37,pnakale,procurement@supplier.na,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00382,2026-09-13 09:23:05,tshivute,alerts@vendor.com,Industry newsletter,https://portal.example.com/8651,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00383,2026-09-13 09:26:31,ntinda,training@nust.na,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00384,2026-09-13 09:31:25,nghifindaka,statements@banking-partner.na,Security awareness reminder,https://portal.example.com/8497,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00385,2026-09-13 09:47:24,katjiuongua,alerts@vendor.com,Security awareness reminder,https://portal.example.com/1107,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00386,2026-09-13 10:12:12,nduminga,training@nust.na,Invoice available,https://portal.example.com/1079,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00387,2026-09-13 10:28:22,kndjavera,training@nust.na,Invoice available,https://portal.example.com/8258,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00388,2026-09-13 10:53:56,katjiuongua,procurement@supplier.na,Security awareness reminder,https://portal.example.com/4934,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00389,2026-09-13 10:58:25,katjiuongua,training@nust.na,Industry newsletter,https://portal.example.com/7809,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00390,2026-09-13 11:09:40,amupanda,procurement@supplier.na,Purchase order update,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00391,2026-09-13 11:27:59,tshivute,procurement@supplier.na,Industry newsletter,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00392,2026-09-13 11:31:25,murorua,billing@cloudservice.com,Service notification,,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00393,2026-09-13 11:37:01,pnakale,billing@cloudservice.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00394,2026-09-13 11:45:13,tjirera,billing@cloudservice.com,Service notification,https://portal.example.com/4144,policy.docx,pass,pass,pass,known-good,QUARANTINE,Attachment heuristic
+E00395,2026-09-13 11:53:51,mukwambi,no-reply@microsoft.com,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00396,2026-09-13 12:02:07,tshivute,billing@cloudservice.com,Password expiry notice,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00397,2026-09-13 12:28:50,nghifindaka,statements@banking-partner.na,Invoice available,https://portal.example.com/2338,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00398,2026-09-13 12:33:28,sihuhua,billing@cloudservice.com,Purchase order update,https://portal.example.com/1978,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00399,2026-09-13 12:43:54,pnakale,newsletter@industry.org,Security awareness reminder,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00400,2026-09-13 12:46:25,haufiku,statements@banking-partner.na,Monthly statement,https://portal.example.com/3465,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00401,2026-09-13 12:52:52,tshivute,newsletter@industry.org,Invoice available,,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00402,2026-09-13 13:07:28,katjiuongua,no-reply@microsoft.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00403,2026-09-13 13:09:51,tkamati,newsletter@industry.org,Invoice available,https://portal.example.com/5922,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00404,2026-09-13 13:13:37,murorua,statements@banking-partner.na,Industry newsletter,https://portal.example.com/5339,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00405,2026-09-13 13:39:01,murorua,billing@cloudservice.com,Purchase order update,https://portal.example.com/6963,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00406,2026-09-13 13:39:36,amupanda,procurement@supplier.na,Service notification,,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00407,2026-09-13 13:49:44,pnakale,no-reply@microsoft.com,Industry newsletter,https://portal.example.com/5453,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00408,2026-09-13 13:50:32,hamukwaya,newsletter@industry.org,Password expiry notice,https://portal.example.com/2919,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00409,2026-09-13 13:59:04,kndjavera,procurement@supplier.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00410,2026-09-13 14:11:17,nghifindaka,procurement@supplier.na,Industry newsletter,https://portal.example.com/6859,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00411,2026-09-13 14:35:30,murorua,newsletter@industry.org,Monthly statement,https://portal.example.com/3843,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00412,2026-09-13 14:42:35,tkamati,billing@cloudservice.com,Industry newsletter,https://portal.example.com/3118,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00413,2026-09-13 14:53:58,sankwasa,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/3171,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00414,2026-09-13 14:55:38,nduminga,training@nust.na,Monthly statement,https://portal.example.com/3555,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00415,2026-09-13 15:02:20,mbandeka,no-reply@microsoft.com,Purchase order update,https://portal.example.com/8353,statement.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00416,2026-09-13 15:12:49,mukwambi,training@nust.na,Monthly statement,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00417,2026-09-13 15:25:31,mukwambi,alerts@vendor.com,Security awareness reminder,https://portal.example.com/3087,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00418,2026-09-13 15:25:47,nnakale,billing@cloudservice.com,Monthly statement,https://portal.example.com/1420,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00419,2026-09-13 16:02:02,mhaingura,billing@cloudservice.com,Purchase order update,https://portal.example.com/9821,agenda.xlsx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00420,2026-09-13 16:04:51,mbandeka,newsletter@industry.org,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00421,2026-09-13 16:12:53,katjiuongua,training@nust.na,Industry newsletter,https://portal.example.com/2140,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00422,2026-09-13 16:13:27,nnakale,procurement@supplier.na,Invoice available,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00423,2026-09-13 16:14:07,haufiku,training@nust.na,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00424,2026-09-13 16:16:33,shilongo,billing@cloudservice.com,Service notification,https://portal.example.com/5316,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00425,2026-09-13 16:28:26,ndjaba,statements@banking-partner.na,Purchase order update,https://portal.example.com/1051,policy.docx,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00426,2026-09-13 16:35:31,tshivute,billing@cloudservice.com,Monthly statement,https://portal.example.com/4693,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00427,2026-09-13 17:12:26,sihuhua,procurement@supplier.na,Password expiry notice,https://portal.example.com/5403,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00428,2026-09-13 17:51:18,jkavari,procurement@supplier.na,Monthly statement,https://portal.example.com/6301,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00429,2026-09-13 17:55:18,tkamati,alerts@vendor.com,Industry newsletter,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00430,2026-09-13 18:07:26,kndjavera,no-reply@microsoft.com,Password expiry notice,https://portal.example.com/8795,invoice.pdf,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00431,2026-09-13 18:18:55,mbandeka,training@nust.na,Service notification,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00432,2026-09-13 18:29:36,jkavari,training@nust.na,Purchase order update,,,pass,pass,pass,known-good,ALLOW,Clean reputation
+E00433,2026-09-13 18:58:18,katjiuongua,alerts@vendor.com,Purchase order update,https://portal.example.com/4378,,pass,pass,pass,known-good,ALLOW,Clean reputation

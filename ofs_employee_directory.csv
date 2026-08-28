@@ -1,0 +1,25 @@
+user_id,employee_name,department,branch,role,assigned_asset,normal_start,normal_end,permitted_resource_groups,employment_status,risk_tier
+mhaingura,Martha Haingura,Customer Service,Windhoek,Customer Service Officer,WKST-CS-017,07:30,17:00,CRM_BASIC;CUSTOMER_BASIC,Active,Standard
+tkamati,Tomas Kamati,Customer Service,Windhoek,Customer Service Officer,WKST-CS-011,07:30,17:00,CRM_BASIC;CUSTOMER_BASIC,Active,Standard
+nnakale,Nela Nakale,Customer Service,Windhoek,Customer Service Supervisor,WKST-CS-006,07:30,17:30,CRM_BASIC;CUSTOMER_BASIC;CUSTOMER_EXPORT,Active,Elevated
+sihuhua,Sofia Ihuhua,Customer Service,Swakopmund,Customer Service Officer,WKST-SWK-008,08:00,17:00,CRM_BASIC;CUSTOMER_BASIC,Active,Standard
+ndjaba,Ndinelago Djaba,Customer Service,Ondangwa,Customer Service Officer,WKST-OND-004,08:00,17:00,CRM_BASIC;CUSTOMER_BASIC,Active,Standard
+jkavari,Jeremia Kavari,Finance,Windhoek,Financial Accountant,WKST-FIN-021,07:30,17:00,FINANCE;REPORTING,Active,Elevated
+tshivute,Tuli Shivute,Finance,Windhoek,Finance Manager,WKST-FIN-004,07:30,18:00,FINANCE;REPORTING;PAYROLL_READ,Active,High
+mukwambi,Martha Mukwambi,Human Resources,Windhoek,HR Officer,WKST-HR-014,08:00,17:00,HR;PAYROLL_READ,Active,Elevated
+pnakale,Petrus Nakale,Human Resources,Windhoek,HR Manager,WKST-HR-002,08:00,17:30,HR;PAYROLL_READ;HR_CONFIDENTIAL,Active,High
+shilongo,Selma Hilongo,Loans,Windhoek,Loan Officer,WKST-LOAN-018,08:00,17:00,LOANS;CUSTOMER_BASIC,Active,Elevated
+nambala,Nghidinwa Nambala,Loans,Swakopmund,Loan Officer,WKST-SWK-012,08:00,17:00,LOANS;CUSTOMER_BASIC,Active,Elevated
+kndjavera,Kaino Ndjavera,Compliance,Windhoek,Compliance Analyst,WKST-CMP-009,07:30,17:30,COMPLIANCE;CUSTOMER_EXPORT;AUDIT,Active,High
+amupanda,Amos Amupanda,Compliance,Windhoek,Compliance Manager,WKST-CMP-003,07:30,18:00,COMPLIANCE;CUSTOMER_EXPORT;AUDIT;HR_CONFIDENTIAL,Active,High
+nghifindaka,Naomi Nghifindaka,Information Technology,Windhoek,Systems Administrator,WKST-IT-005,07:00,18:00,IT_ADMIN;SERVERS;AUDIT,Active,Privileged
+haufiku,Helao Haufiku,Information Technology,Windhoek,Security Analyst,WKST-SOC-003,06:00,18:00,SOC;AUDIT;SERVERS;CUSTOMER_EXPORT,Active,Privileged
+katjiuongua,Katrina Katjiuongua,Information Technology,Windhoek,Network Engineer,WKST-IT-012,07:00,18:00,IT_ADMIN;NETWORK;SERVERS,Active,Privileged
+murorua,Maria Murorua,Risk,Windhoek,Risk Analyst,WKST-RSK-006,08:00,17:00,RISK;REPORTING;AUDIT,Active,Elevated
+shapaka,Shapaka Ndapewa,Executive,Windhoek,Chief Operations Officer,WKST-EXE-002,07:00,19:00,EXECUTIVE;REPORTING,Active,High
+ntinda,Ndapandula Ntinda,Marketing,Windhoek,Marketing Officer,WKST-MKT-010,08:00,17:00,MARKETING;PUBLIC,Active,Standard
+hamukwaya,Hilma Hamukwaya,Treasury,Windhoek,Treasury Analyst,WKST-TRY-007,07:30,17:30,TREASURY;REPORTING,Active,High
+tjirera,Tjivera Tjipura,Internal Audit,Windhoek,Internal Auditor,WKST-AUD-004,07:30,17:30,AUDIT;CUSTOMER_EXPORT;FINANCE;HR,Active,High
+nduminga,Nduminga Nghidinwa,Customer Service,Swakopmund,Customer Service Supervisor,WKST-SWK-002,08:00,17:30,CRM_BASIC;CUSTOMER_BASIC;CUSTOMER_EXPORT,Active,Elevated
+mbandeka,Mbandeka Uiras,Legal,Windhoek,Legal Officer,WKST-LGL-005,08:00,17:00,LEGAL;CUSTOMER_BASIC,Active,Elevated
+sankwasa,Sankwasa Muyako,Procurement,Windhoek,Procurement Officer,WKST-PRC-008,08:00,17:00,PROCUREMENT;FINANCE_READ,Active,Standard

@@ -1,0 +1,25 @@
+user_id,avg_download_mb,sensitive_access_rate,role_mismatch_count,department,dept_avg_download_mb,dept_sensitive_rate,dept_role_mismatch_rate,dept_failed_rate,dept_offhours_rate
+amupanda,0.01,1.0,0,Compliance,0.01,1.0,0.0,0.033,0.267
+hamukwaya,0.01,0.0,44,Treasury,0.01,0.0,1.0,0.1,0.2
+haufiku,0.01,1.0,0,Information Technology,0.01,1.0,0.0,0.053,0.263
+jkavari,0.01,1.0,0,Finance,0.01,1.0,0.0,0.167,0.167
+katjiuongua,0.01,1.0,0,Information Technology,0.01,1.0,0.0,0.053,0.263
+kndjavera,0.01,1.0,0,Compliance,0.01,1.0,0.0,0.033,0.267
+mbandeka,0.01,1.0,0,Legal,0.01,1.0,0.0,0.0,0.25
+mhaingura,8.06,0.8,63,Customer Service,2.74,0.65,0.19,0.105,0.384
+mukwambi,0.01,1.0,0,Human Resources,0.01,1.0,0.0,0.091,0.409
+murorua,0.01,1.0,0,Risk,0.01,1.0,0.0,0.125,0.25
+nambala,0.01,1.0,0,Loans,0.01,1.0,0.0,0.0,0.303
+ndjaba,0.01,0.51,0,Customer Service,2.74,0.65,0.19,0.105,0.384
+nduminga,0.01,0.77,0,Customer Service,2.74,0.65,0.19,0.105,0.384
+nghifindaka,0.01,1.0,0,Information Technology,0.01,1.0,0.0,0.053,0.263
+nnakale,0.01,0.74,0,Customer Service,2.74,0.65,0.19,0.105,0.384
+ntinda,0.01,0.0,53,Marketing,0.01,0.0,1.0,0.0,0.214
+pnakale,0.01,1.0,0,Human Resources,0.01,1.0,0.0,0.091,0.409
+sankwasa,0.01,0.0,57,Procurement,0.01,0.0,1.0,0.071,0.643
+shapaka,0.01,0.0,41,Executive,0.01,0.0,1.0,0.0,0.6
+shilongo,0.01,1.0,0,Loans,0.01,1.0,0.0,0.0,0.303
+sihuhua,0.02,0.41,0,Customer Service,2.74,0.65,0.19,0.105,0.384
+tjirera,0.01,1.0,0,Internal Audit,0.01,1.0,0.0,0.0,0.0
+tkamati,0.02,0.39,0,Customer Service,2.74,0.65,0.19,0.105,0.384
+tshivute,0.02,1.0,0,Finance,0.01,1.0,0.0,0.167,0.167

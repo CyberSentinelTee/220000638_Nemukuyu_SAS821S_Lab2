@@ -1,0 +1,16 @@
+session_id,session_start,user_id,risk_probability,interpretation
+S00232,2026-09-13 21:58:00,nambala,0.9069498072047572,privilege mismatch
+S00300,2026-09-12 13:16:00,ntinda,0.8969855031667794,new device
+CASE-EXFIL-01,2026-09-12 00:35:00,mhaingura,0.8570212788716333,impossible travel; privilege mismatch; large upload (284.3 MB); new device; off-hours
+S00072,2026-09-13 17:40:00,ntinda,0.852858195342312,impossible travel; privilege mismatch
+CASE-KYC-01,2026-09-11 18:33:00,mhaingura,0.8362943095551792,impossible travel; privilege mismatch; new device; off-hours
+CASE-VPN-01,2026-09-11 18:18:00,mhaingura,0.8344111260856544,impossible travel; privilege mismatch; new device; off-hours
+S00015,2026-09-12 01:12:00,haufiku,0.8328039895390235,elevated behavioural score
+S00278,2026-09-08 08:51:00,katjiuongua,0.8286050265242518,new device
+S00195,2026-09-12 11:39:00,mhaingura,0.8217575279509661,elevated behavioural score
+S00414,2026-09-12 13:42:00,nambala,0.8208501100442138,new device; off-hours
+S00233,2026-09-09 05:32:00,tkamati,0.818388434683867,elevated behavioural score
+CASE-EXFIL-02,2026-09-12 00:43:00,mhaingura,0.7877116934493096,impossible travel; privilege mismatch; large upload (972.1 MB); new device; off-hours
+S00287,2026-09-12 00:45:00,sihuhua,0.7813623081773436,elevated behavioural score
+S00329,2026-09-10 05:17:00,kndjavera,0.7809548059789012,off-hours
+S00223,2026-09-10 01:37:00,haufiku,0.7747549012813827,elevated behavioural score
