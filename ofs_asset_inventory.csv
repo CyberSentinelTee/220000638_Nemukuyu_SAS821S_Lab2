@@ -1,0 +1,17 @@
+asset_id,ip_address,asset_type,business_owner,primary_user,criticality,security_tools
+WKST-CS-017,10.30.12.17,Windows 11 workstation,Customer Service,mhaingura,Medium,CrowdStrike;Office;CRM Client
+WKST-CS-011,10.30.12.11,Windows 11 workstation,Customer Service,tkamati,Medium,CrowdStrike;Office;CRM Client
+WKST-CS-006,10.30.12.6,Windows 11 workstation,Customer Service,nnakale,Medium,CrowdStrike;Office;CRM Client
+WKST-SWK-008,10.31.12.8,Windows 11 workstation,Customer Service,sihuhua,Medium,CrowdStrike;Office;CRM Client
+WKST-OND-004,10.32.12.4,Windows 11 workstation,Customer Service,ndjaba,Medium,CrowdStrike;Office;CRM Client
+WKST-FIN-021,10.30.21.21,Windows 11 workstation,Finance,jkavari,High,CrowdStrike;Office;Finance Client
+WKST-HR-014,10.30.22.14,Windows 11 workstation,Human Resources,mukwambi,High,CrowdStrike;Office;HR Client
+WKST-CMP-009,10.30.23.9,Windows 11 workstation,Compliance,kndjavera,High,CrowdStrike;Office;Audit Tools
+WKST-SOC-003,10.30.10.3,Windows 11 workstation,Information Technology,haufiku,High,EDR Console;SIEM;Office
+VPN-GW-01,10.30.0.10,VPN gateway,Information Technology,nghifindaka,Critical,FortiGate VPN
+MAIL-GW-01,10.30.0.20,Email security gateway,Information Technology,nghifindaka,Critical,Secure Email Gateway
+DB-CRM-01,10.40.5.15,PostgreSQL database,Customer Service,service_crm,Critical,PostgreSQL;EDR
+FS-KYC-01,10.40.8.21,Windows file server,Compliance,service_files,Critical,Windows Server;DLP Agent
+FS-HR-01,10.40.8.25,Windows file server,Human Resources,service_files,High,Windows Server;DLP Agent
+FS-FIN-01,10.40.8.30,Windows file server,Finance,service_files,High,Windows Server;DLP Agent
+SIEM-01,10.40.10.10,SIEM server,Information Technology,service_siem,Critical,Wazuh;Elastic

@@ -1,0 +1,10 @@
+resource_group,description,classification,authorised_departments_or_roles,normal_access_condition
+CRM_BASIC,Customer relationship management records,Internal,Customer Service;Loans;Compliance,Read/Update assigned customer records
+CUSTOMER_BASIC,Basic customer profile data,Confidential,Customer Service;Loans;Legal,Read individual records for approved business purpose
+CUSTOMER_EXPORT,Bulk KYC/customer export area,Restricted,Compliance;Internal Audit;Customer Service Supervisors,Bulk read/export requires approved case or supervisor role
+HR,General HR records,Confidential,Human Resources;Internal Audit,Read/update according to role
+HR_CONFIDENTIAL,Disciplinary and termination records,Restricted,HR Manager;Compliance Manager,Named-role access only
+FINANCE,Finance operations,Confidential,Finance;Internal Audit,Role-based read/update
+PAYROLL_READ,Payroll reports,Restricted,Finance Manager;Human Resources,Read only
+IT_ADMIN,Administrative systems,Restricted,Information Technology,Privileged and monitored
+AUDIT,Security and audit evidence,Restricted,Compliance;Internal Audit;Information Technology,Read according to investigation mandate

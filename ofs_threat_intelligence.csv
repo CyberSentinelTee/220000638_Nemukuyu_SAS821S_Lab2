@@ -1,0 +1,28 @@
+intel_id,first_seen,last_updated,indicator,indicator_type,confidence,threat_actor,tactic,source,recommended_action
+TI0001,2026-08-01 00:00:00,2026-09-10 00:00:00,41.182.29.23,ip,Medium,Unknown,Reconnaissance,Community feed,Monitor
+TI0002,2026-08-02 00:00:00,2026-09-10 00:00:00,suspicious-1.example.net,domain,Low,Unknown,Initial Access,Community feed,Monitor
+TI0003,2026-08-03 00:00:00,2026-09-10 00:00:00,185.44.190.27,ip,Medium,Unknown,Reconnaissance,Community feed,Monitor
+TI0004,2026-08-04 00:00:00,2026-09-10 00:00:00,suspicious-3.example.net,domain,Medium,Unknown,Reconnaissance,Community feed,Monitor
+TI0005,2026-08-05 00:00:00,2026-09-10 00:00:00,41.182.254.185,ip,Medium,Unknown,Command and Control,Community feed,Monitor
+TI0006,2026-08-06 00:00:00,2026-09-10 00:00:00,suspicious-5.example.net,domain,Low,Unknown,Initial Access,Community feed,Monitor
+TI0007,2026-08-07 00:00:00,2026-09-10 00:00:00,104.21.57.248,ip,Medium,Unknown,Command and Control,Community feed,Monitor
+TI0008,2026-08-08 00:00:00,2026-09-10 00:00:00,suspicious-7.example.net,domain,Low,Unknown,Reconnaissance,Community feed,Monitor
+TI0009,2026-08-09 00:00:00,2026-09-10 00:00:00,41.182.85.124,ip,Low,Unknown,Initial Access,Community feed,Monitor
+TI0010,2026-08-10 00:00:00,2026-09-10 00:00:00,suspicious-9.example.net,domain,Low,Unknown,Reconnaissance,Community feed,Monitor
+TI0011,2026-08-11 00:00:00,2026-09-10 00:00:00,185.44.231.89,ip,Medium,Unknown,Initial Access,Community feed,Monitor
+TI0012,2026-08-12 00:00:00,2026-09-10 00:00:00,suspicious-11.example.net,domain,Medium,Unknown,Command and Control,Community feed,Monitor
+TI0013,2026-08-13 00:00:00,2026-09-10 00:00:00,104.21.166.209,ip,Low,Unknown,Initial Access,Community feed,Monitor
+TI0014,2026-08-14 00:00:00,2026-09-10 00:00:00,suspicious-13.example.net,domain,Low,Unknown,Command and Control,Community feed,Monitor
+TI0015,2026-08-15 00:00:00,2026-09-10 00:00:00,102.134.156.210,ip,Medium,Unknown,Initial Access,Community feed,Monitor
+TI0016,2026-08-16 00:00:00,2026-09-10 00:00:00,suspicious-15.example.net,domain,Medium,Unknown,Initial Access,Community feed,Monitor
+TI0017,2026-08-17 00:00:00,2026-09-10 00:00:00,197.188.218.150,ip,Low,Unknown,Initial Access,Community feed,Monitor
+TI0018,2026-08-18 00:00:00,2026-09-10 00:00:00,suspicious-17.example.net,domain,Medium,Unknown,Reconnaissance,Community feed,Monitor
+TI0019,2026-08-19 00:00:00,2026-09-10 00:00:00,185.44.42.217,ip,Medium,Unknown,Reconnaissance,Community feed,Monitor
+TI0020,2026-08-20 00:00:00,2026-09-10 00:00:00,suspicious-19.example.net,domain,Medium,Unknown,Command and Control,Community feed,Monitor
+TI0021,2026-08-21 00:00:00,2026-09-10 00:00:00,104.21.90.230,ip,Low,Unknown,Reconnaissance,Community feed,Monitor
+TI0022,2026-08-22 00:00:00,2026-09-10 00:00:00,suspicious-21.example.net,domain,Low,Unknown,Command and Control,Community feed,Monitor
+TI1001,2026-09-11 12:00:00,2026-09-14 00:00:00,ofservices-portal.com,domain,High,Mantis Jackal,Initial Access,National CSIRT advisory,Block domain; identify recipients and clicks
+TI1002,2026-09-11 12:00:00,2026-09-14 00:00:00,196.250.34.77,ip,High,Mantis Jackal,Command and Control,National CSIRT advisory,Block IP; isolate contacting endpoints
+TI1003,2026-09-12 03:00:00,2026-09-14 00:00:00,cdn-storage-sync.net,domain,High,Mantis Jackal,Exfiltration,Financial-sector ISAC,Block domain; review upload records
+TI1004,2026-09-12 03:00:00,2026-09-14 00:00:00,45.83.64.12,ip,High,Mantis Jackal,Exfiltration,Financial-sector ISAC,Block IP; investigate outbound transfers
+TI1005,2026-09-11 12:00:00,2026-09-14 00:00:00,37ed5aea92bb7c32618ef6810a3967d36006f6ef420621cea199c2edd479edda,sha256,High,Mantis Jackal,Execution,EDR vendor,Quarantine file and hunt by hash
